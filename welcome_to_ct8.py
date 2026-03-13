@@ -26,5 +26,12 @@ print("\n\n")
                                                                                           
                                                                                           
                                   
-print("Now it's your turn:")
-print("Find this line (line 30) in the welcome_to_ct8.py file, then change the message to say a fact about you.")                                  
+print("Time for 2 truths and a lie:")
+print("#1: I have 3 pets.")                                  
+print("#2: I have two middle names.")
+print("#3: All of my pets hate each other.")
+guess = (input("\n---Type your guess here for which one is the lie. Say #1, #2, or #3.---\n"))
+if guess == ("#1"):
+    print("Correct! Good job.")
+else:
+    print("Sorry, that's wrong!")

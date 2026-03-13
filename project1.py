@@ -1,0 +1,27 @@
+print("Hello. This is my first project I am doing for Computational Thinking 8!")
+input()
+print("Today we're doing a mad libs!")
+input("\nAre you ready?\n")
+print("\nGreat! Let's get started.\n")
+
+print(r"(Please don't use punctuation unless instructed.)")
+
+name1 = input("Give me a name: ")
+place1 = input("Give me a place: ")
+color1 = input("Give me a color: ")
+emotion1 = input("Give me an emotion: ")
+number1 = input("Give me a number: ")
+animal1 = input("Give me an animal: ")
+food1 = input("Give me a food: ")
+place2 = input("Give me another place: ")
+
+print(f"Once upon a time, a young {color1} {animal1} named {name1} went to {place1}.")
+print(f"{name1} was a happy young {animal1} and loved eating {food1},")
+print(f"so they brought {number1} pounds of {food1} along with them.")
+print(f"On their trip to {place1}, they got really hungry and ate all of their {food1}! All {number1} pounds!")
+print(f"After eating all of their {food1}, they felt {emotion1}, so they decided to sleep.")
+print(f"Eventually, {name1} had to return from {place1}, to go home to {place2}.")
+print(f"And then {name1} and their friends all lived happily ever after.")
+
+input()
+print("The End.")
