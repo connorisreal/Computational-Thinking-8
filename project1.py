@@ -1,7 +1,7 @@
 print("Hello. This is my first project I am doing for Computational Thinking 8!")
 input()
 print("Today we're doing a mad libs!")
-playername = input("\nWhat's your name??\n")
+playername = input("\nWhat's your name?\n")
 print("\nGreat! Let's get started.\n")
 
 print(r"(Please don't use punctuation unless instructed.)")
