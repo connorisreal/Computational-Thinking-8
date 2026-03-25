@@ -9,7 +9,6 @@
         "libraries": true,
         "requirements.txt": true,
         "Projects/__pycache__": true,
-        "utils.py": true,
         "README.md": true,
     },
     "git.confirmEmptyCommits": false,
