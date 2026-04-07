@@ -25,9 +25,14 @@ def playagain():
     else:
        print("Computer wins!")
 
-    replay = input("Play again? (Y/N): ")
-    if replay.lower() == "y":
-        playagain()
-    else:
-        print("Ok. Good game!")
+    while True:
+        replay = input("Would you like to play again? (Y/N): ").upper()
+        if replay == "Y":
+            playagain()
+        elif replay == "N":
+            print("\nThanks for playing! Goodbye.")
+            break
+        else:
+            print("\nPlease enter 'Y' or 'N'.\n")
+
 playagain()
