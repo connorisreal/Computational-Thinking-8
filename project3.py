@@ -43,11 +43,9 @@ def play_game():
 
     # # Section 3 - Racing
     # All sprites have a random speed with the same range, meaning it is completely random who wins 
-    game_over = False
-
     time.sleep(3)
 
-    while not game_over:
+    for i in range(100):
         x1 += random.randint(7, 20)
         x2 += random.randint(7, 20)
         x3 += random.randint(7, 20)
@@ -62,23 +60,23 @@ def play_game():
         time.sleep(0.1)
     
         if x1 > 280:
-            print("Red horse wins!")
+            print("\nRed horse wins!")
             if horse_bet == "r":
                 money += bet
                 print("\nYour bet was correct!")
             else:
                 money -= bet
                 print("\nSorry, your bet was incorrect.")
-            game_over = True
+            break
         elif x2 > 280:
-            print("Green horse wins!")
+            print("\nGreen horse wins!")
             if horse_bet == "g":
                 money += bet
                 print("\nYour bet was correct!")
             else:
                 money -= bet
                 print("\nSorry, your bet was incorrect.")
-            game_over = True
+            break
         elif x3 > 280:
             print("\nOrange horse wins!")
             if horse_bet == "o":
@@ -87,16 +85,16 @@ def play_game():
             else:
                 money -= bet
                 print("\nSorry, your bet was incorrect.")
-            game_over = True
+            break
         elif x4 > 280:
-            print("Blue horse wins!")
+            print("\nBlue horse wins!")
             if horse_bet == "b":
                 money += bet
                 print("\nYour bet was correct!")
             else:
                 money -= bet
                 print("\nSorry, your bet was incorrect.")
-            game_over = True
+            break
 
     if money < 1:
         print("\nSorry, but you are broke. You lose.")
