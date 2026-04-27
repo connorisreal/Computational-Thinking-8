@@ -24,7 +24,7 @@ def play_game():
     t3 = create_sprite("horse_racer_orange_scale",x3,y3)
     t4 = create_sprite("horse_racer_blue_scale",x4,y4)
 
-    print(f"You have: {money} dollars.")
+    print(f"\nYou have: {money} dollars.")
     bet = int(input("\nInput betting amount: "))
     if bet > money:
         while True:
