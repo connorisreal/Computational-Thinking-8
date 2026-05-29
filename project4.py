@@ -53,4 +53,4 @@ for i in range(1000000000):
     time.sleep(0.1)
     window.update()
 
-# the goal is simply to get as many cookies as possible
+# the goal is simply to get as many cookies as possible, and you can buy grandmas and cursors to passively get cookies!
